@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white; /* Plain white background */
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.social-links a:hover {
+    color: gold;
+}
+
+/* Summary Section */
+.summary-section {
+    margin-top: 80px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.summary-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Education Section */
+.education-section {
+    margin: 30px 0;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.education-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-image img {
+    width: 150px; /* Adjust university logo width */
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Experience Section */
+.experience-section {
+    margin: 30px 0;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.experience-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-content.reverse {
+    flex-direction: row-reverse;
+}
+
+.experience-logo {
+    width: 100px; /* Adjust logo width to make it consistent */
+    height: auto;
+    margin: 0 20px;
+}
+
+/* ChatGPT Section */
+.chatgpt-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.chatgpt-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.chatgpt-section p.placeholder {
+    font-style: italic;
+    color: gray;
+}
